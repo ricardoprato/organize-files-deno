@@ -1,7 +1,6 @@
 import { ensureDir, move } from "https://deno.land/std@0.177.0/fs/mod.ts";
 
 const folderPath = Deno.cwd();
-console.log(folderPath);
 
 const fileTypes = new Map<string, string>([
   ["jpg", "IMAGES"],
